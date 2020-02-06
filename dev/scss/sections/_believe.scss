@@ -3,6 +3,8 @@
 ============= */
 #believe {
 
+    border: 1px solid red;
+
     @include xl{
         display: grid;
         grid-template-areas: ". section-grid .";

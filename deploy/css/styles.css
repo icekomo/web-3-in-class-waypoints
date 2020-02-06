@@ -494,72 +494,70 @@ footer {
 /* =============
     Believe
 ============= */
-@media (min-width: 1200px) {
-  #believe {
-    display: grid;
-    grid-template-areas: ". section-grid .";
-    grid-template-columns: auto 1200px auto; } }
-
-@media (min-width: 768px) {
-  #believe > div {
-    display: grid;
-    grid-template-areas: "believe-img believe-text";
-    grid-template-columns: 40% auto; } }
-
-@media (min-width: 1200px) {
-  #believe > div {
-    grid-area: section-grid; } }
-
-#believe > div section {
-  display: grid;
-  grid-template-areas: ". believe .";
-  grid-template-columns: 20px auto 20px;
-  margin-bottom: 40px; }
+#believe {
+  border: 1px solid red; }
+  @media (min-width: 1200px) {
+    #believe {
+      display: grid;
+      grid-template-areas: ". section-grid .";
+      grid-template-columns: auto 1200px auto; } }
   @media (min-width: 768px) {
-    #believe > div section {
-      grid-area: believe-text; } }
-  #believe > div section div {
-    align-items: center;
-    display: flex;
-    grid-area: believe;
-    text-align: center; }
+    #believe > div {
+      display: grid;
+      grid-template-areas: "believe-img believe-text";
+      grid-template-columns: 40% auto; } }
+  @media (min-width: 1200px) {
+    #believe > div {
+      grid-area: section-grid; } }
+  #believe > div section {
+    display: grid;
+    grid-template-areas: ". believe .";
+    grid-template-columns: 20px auto 20px;
+    margin-bottom: 40px; }
     @media (min-width: 768px) {
-      #believe > div section div {
-        text-align: left; } }
-    #believe > div section div article {
-      border-bottom: 3px solid #D87337;
-      border-top: 3px solid #D87337;
-      padding: 20px 0; }
-      #believe > div section div article h1 {
-        font-size: 1.75rem;
-        margin-bottom: 15px; }
-        @media (min-width: 768px) {
-          #believe > div section div article h1 {
-            font-size: 1.875rem; } }
-        @media (min-width: 992px) {
-          #believe > div section div article h1 {
-            font-size: 2.25rem; } }
-        @media (min-width: 1200px) {
-          #believe > div section div article h1 {
-            font-size: 2.5rem; } }
-      #believe > div section div article p {
-        font-size: 1rem; }
-        @media (min-width: 992px) {
-          #believe > div section div article p {
-            font-size: 1.25rem; } }
-        @media (min-width: 1200px) {
-          #believe > div section div article p {
-            font-size: 1.375rem;
-            padding-right: 50px; } }
-
-#believe > div aside {
-  background-image: url("../img/believe/believe.jpg");
-  background-size: cover;
-  height: 80vh; }
-  @media (min-width: 768px) {
-    #believe > div aside {
-      grid-area: believe-img;
-      height: 50vh; } }
+      #believe > div section {
+        grid-area: believe-text; } }
+    #believe > div section div {
+      align-items: center;
+      display: flex;
+      grid-area: believe;
+      text-align: center; }
+      @media (min-width: 768px) {
+        #believe > div section div {
+          text-align: left; } }
+      #believe > div section div article {
+        border-bottom: 3px solid #D87337;
+        border-top: 3px solid #D87337;
+        padding: 20px 0; }
+        #believe > div section div article h1 {
+          font-size: 1.75rem;
+          margin-bottom: 15px; }
+          @media (min-width: 768px) {
+            #believe > div section div article h1 {
+              font-size: 1.875rem; } }
+          @media (min-width: 992px) {
+            #believe > div section div article h1 {
+              font-size: 2.25rem; } }
+          @media (min-width: 1200px) {
+            #believe > div section div article h1 {
+              font-size: 2.5rem; } }
+        #believe > div section div article p {
+          font-size: 1rem; }
+          @media (min-width: 992px) {
+            #believe > div section div article p {
+              font-size: 1.25rem; } }
+          @media (min-width: 1200px) {
+            #believe > div section div article p {
+              font-size: 1.375rem;
+              padding-right: 50px; } }
+  #believe > div aside {
+    background-image: url("../img/believe/believe.jpg");
+    background-size: cover;
+    height: 80vh; }
+    @media (min-width: 768px) {
+      #believe > div aside {
+        grid-area: believe-img;
+        height: 50vh; } }
 
 /* =============
     Everything

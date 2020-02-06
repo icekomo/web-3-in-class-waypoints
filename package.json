@@ -7,6 +7,7 @@
   "license": "UNLICENSED",
   "repository": {},
   "dependencies": {
+    "notifyjs-browser": "^0.4.2",
     "waypoints": "^4.0.1"
   }
 }

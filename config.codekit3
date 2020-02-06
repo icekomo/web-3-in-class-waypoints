@@ -2014,7 +2014,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "gsap, DrawSVGPlugin,ScrollToPlugin",
+	"jsCheckerReservedNamesString": "gsap, DrawSVGPlugin,ScrollToPlugin, Waypoint",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
