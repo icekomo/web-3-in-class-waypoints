@@ -1,0 +1,27 @@
+/* =============
+    Header
+============= */
+header{
+    position: fixed;
+    width: 100%;
+    background-color: $white;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 20px auto 20px;
+    grid-template-areas: ". header .";
+    z-index: 20;
+
+    >div{
+        grid-area: header;
+        display: flex;
+        justify-content: flex-end;
+
+        section{
+            svg{
+                width: 44px;
+                cursor: pointer;
+
+            }
+        }
+    }
+}
