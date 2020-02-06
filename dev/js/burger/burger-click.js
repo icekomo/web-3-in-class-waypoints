@@ -45,6 +45,9 @@ function burgerClick(){
         // slide over navigaiton site content
         gsap.to("nav",{duration:0.25, x:0})
 
+        // scorll to content
+        gsap.to(window, {duration: 2, scrollTo: {y: navItems[$("nav ul li").index(this)], offsetY: 67}});
+
         // set this to false, so that the default mouseenter and mouselever DO work
         isNavVisible = false;
     }
