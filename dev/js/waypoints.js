@@ -20,8 +20,6 @@ var inview = new Waypoint.Inview({
     $.notify('Enter triggered with direction ' + direction,{ globalPosition: 'right middle', className:"info" })
   },offset: {
     top: 67 // 67px
-
-    // top: 67, // 67px
-    // bottom: 100 // 100
   }
+
 })
